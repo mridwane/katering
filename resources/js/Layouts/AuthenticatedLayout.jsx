@@ -31,8 +31,8 @@ export default function Authenticated({ header, children }) {
                                     Dashboard
                                 </NavLink>
                                 <NavLink
-                                    href={route("menu")}
-                                    active={route().current("menu")}
+                                    href={route("menu.index")}
+                                    active={route().current("menu.index")}
                                 >
                                     Menu
                                 </NavLink>

@@ -30,7 +30,7 @@ export default forwardRef(function TextArea(
                     className
                 }
                 ref={localRef}
-                placeholder="Say hi..."
+                placeholder=""
             ></textarea>
         </div>
     );

@@ -145,7 +145,7 @@ export default function UpdateProfileInformation({
 
                             <InputError
                                 className="mt-2"
-                                message={errors.email}
+                                message={errors.phone}
                             />
                         </div>
                         {/* end phone */}
@@ -158,15 +158,15 @@ export default function UpdateProfileInformation({
                                 isFocused={false}
                                 className=""
                                 placeholder="Write your comment here..."
-                                value={data.description}
+                                value={data.address}
                                 onChange={(e) =>
-                                    setData("description", e.target.value)
+                                    setData("address", e.target.value)
                                 }
                             />
 
                             <InputError
                                 className="mt-2"
-                                message={errors.email}
+                                message={errors.address}
                             />
                         </div>
                         {/* end address */}
@@ -190,7 +190,7 @@ export default function UpdateProfileInformation({
 
                             <InputError
                                 className="mt-2"
-                                message={errors.email}
+                                message={errors.description}
                             />
                         </div>
                         {/* end description */}
